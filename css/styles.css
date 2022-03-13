@@ -3,3 +3,35 @@ h1{color: 1C658C;}
 body{background-color:D8D2CB;}
 h2{color:398AB9 ;}
 h3{color:398AB9 ;}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;}
+td, th , tr {
+    border: 1px solid #398AB9;
+    text-align: left;
+    padding: 8px;}
+
+th{background-color: #86C6F4;}
+td, tr {background-color: #FFF2F9;}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+  padding: 5px 15px;
+  background-color: 86C6F4;
+  border: thin solid 084594;
+  border-radius: 10px;
+  margin:5px;
+  display: inline-block;}
+input[type="radio"]:checked + label {
+    background-color: darkblue;
+    cursor: default;
+    color: #86C6F4;}
+
+#example1 {
+  border: 5px solid;
+  padding: 22px;
+  box-shadow: 5px 11px;}
